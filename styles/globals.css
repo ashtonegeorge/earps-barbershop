@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 .map-container {
-  width: 50vh;
-  height: 50vh;
+  width: 25rem;
+  height: 25rem;
 }

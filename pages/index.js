@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Navbar from '@/components/Navbar';
-import Map from '@/components/Map';
+import Landing from '@/components/Landing';
 
 export default function Home() {
   return (
@@ -9,15 +9,15 @@ export default function Home() {
         <title>Earp's Barbershop</title>
         <meta name="description" content="Welcome to Earp's Barbershop on Main Street in Everett, PA." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/earpslogo.jpg" />
+        
+        <link rel="icon" href="/favicon.ico" />
       </Head>
-      <>
-        <Navbar />
-        <div className='pt-48 h-[100vh]'>
-          <div>content</div>
-          <Map />
-        </div>
-      </>
+      <div className='main'>
+        
+        <Landing />
+        <Navbar className='navbar'/>
+        
+      </div>
     </>
   )
 }

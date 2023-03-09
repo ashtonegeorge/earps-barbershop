@@ -3,25 +3,15 @@ import Image from 'next/image';
 
 const Hours = () => {
   return (
-    <div>
-        <div className='absolute w-full z-0'>
-            <Image
-            
-                src='/barberpolebglg.jpg'
-                alt=''
-                width='1000'
-                height='200'
-                className='w-full h-full'
-            
-            />
-        </div>
+    <div className='' style={{backgroundImage: `url(/barberpolebglg.jpg)`}}>
+
         <div className='h-[50vh] flex justify-evenly text-white w-full z-1'>
             
-            <div className='w-1/2 text-xl my-auto'>
+            <div className='w-1/4 text-xl my-auto'>
                 <h2>Hours are subject to change, notices are posted on our Facebook page. It can be found at the bottom of the site. Give us a like and let us know how we did!</h2>
             </div>            
             
-            <div className='w-1/3 my-auto'>
+            <div className='w-2/5 my-auto'>
                 <h1 className='text-4xl'>Hours</h1>
                 <div className='grid grid-cols-2 grid-rows-7 w-full text-2xl border border-black bg-stone-700 h-[60%]' >
                     <div className='divide-y-2 divide-black'>
@@ -44,7 +34,6 @@ const Hours = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
   )

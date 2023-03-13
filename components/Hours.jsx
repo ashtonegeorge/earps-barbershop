@@ -3,17 +3,17 @@ import Image from 'next/image';
 
 const Hours = () => {
   return (
-    <div className='' style={{backgroundImage: `url(/barberpolebglg.jpg)`}}>
+    <div id='hours' style={{backgroundImage: `url(/barberpolebglg.jpg)`}}>
 
-        <div className='h-[50vh] flex justify-evenly text-white w-full z-1'>
+        <div className='h-[40vh] md:h-[50vh] block md:flex justify-evenly text-white w-full z-1'>
             
-            <div className='w-1/4 text-xl my-auto'>
+            <div className='w-3/4 md:w-1/4 text-sm md:text-xl my-8 md:my-auto mx-auto md:mx-0'>
                 <h2>Hours are subject to change, notices are posted on our Facebook page. It can be found at the bottom of the site. Give us a like and let us know how we did!</h2>
             </div>            
             
-            <div className='w-2/5 my-auto'>
-                <h1 className='text-4xl'>Hours</h1>
-                <div className='grid grid-cols-2 grid-rows-7 w-full text-2xl border border-black bg-stone-700 h-[60%]' >
+            <div className='w-3/4 md:w-2/5 my-8 md:my-auto mx-auto md:mx-0'>
+                <h1 className='md:text-xl lg:text-3xl xl:text-4xl'>Hours</h1>
+                <div className='grid grid-cols-2 grid-rows-7 w-full text-xs md:text-sm lg:text-lg xl:text-2xl border border-black bg-stone-700 h-[60%]' >
                     <div className='divide-y-2 divide-black'>
                         <h2>Monday</h2>
                         <h2>Tuesday</h2>

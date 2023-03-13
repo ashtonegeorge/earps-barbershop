@@ -3,6 +3,29 @@
 @tailwind utilities;
 
 .map-container {
-  width: 25rem;
-  height: 25rem;
+  width: 25vw;
+  height: 25vw;
+}
+
+@media screen and (min-width: 1441px) {
+  .map-container {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .map-container {
+    width: 65vw;
+    height: 65vw;
+    margin: 0 auto;
+  }
+}
+
+#hours {
+  text-decoration: none;  
+}
+
+#map {
+  text-decoration: none;
 }
